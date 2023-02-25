@@ -1,4 +1,6 @@
-# SQL Task
+# SQL
+
+## Homework 1 - Database and Queries
 
 Choose an application domain and, using a relational DBMS, build a database. This can be done in two ways:
 
@@ -18,3 +20,14 @@ NOTICE: all datasets are potentially fine EXCEPT MOVIE DATASETS (too many projec
 The work must be done by groups of two students. Students can use publicly available DBMSs like MySQL or PostgreSQL (see below), or other, commercial DBMSs.
 
 The queries defined by the students should comprise all the aspects of SQL queries analyzed during the course lectures and exercises (joins, aggregations, nested queries, queries with negated subqueries). The complexity of the queries produced should be (at least) comparable to the specification appearing in the following exercise on SQL. 
+
+## Homework 2 - SQL evaluation and optimization
+
+Starting from the database developed in the first homework, every group has to identify at least 4 SQL queries that pose performance problems to the DBMS. The students have to show both the "slow" and the "fast" execution of the queries, where the fast version is obtained by:
+- adding integrity constraints to one or more tables
+- rewriting the SQL query (without changing its meaning)
+- adding indices to one or more tables
+- modifying the schema of the database
+- adding views or new (materialized) tables derived from the existing database tables
+
+Ideally, these queries should be picked from the queries created for the first homework; however, new queries can be considered if none of the previous queries poses performance problems to the DBMS. 
