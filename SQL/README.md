@@ -1,4 +1,4 @@
-# SQL
+# SQL Task
 
 ## Homework 1 - Database and Queries
 
