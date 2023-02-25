@@ -1,4 +1,4 @@
-# No-SQL Task
+# NoSQL Task
 
 ## Homework 3 - Database and Queries
 
